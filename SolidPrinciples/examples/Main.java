@@ -1,4 +1,4 @@
-package SolidPrinciples.src.com.solidprinciples;
+package SolidPrinciples.examples;
 
 public class Main {
     public static void main(String[] args) {
