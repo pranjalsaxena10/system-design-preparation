@@ -1,0 +1,14 @@
+package DesignPatterns.Behavioural.StrategyDesignPattern.solution.approach2WithInterface;
+
+public class MallardDuck extends Duck implements Flyable {
+    @Override
+    public void display() {
+        System.out.println("This is Mallard Duck...");
+    }
+
+
+    @Override
+    public void fly() {
+        System.out.println("Mallard Duck is flying...");
+    }
+}
