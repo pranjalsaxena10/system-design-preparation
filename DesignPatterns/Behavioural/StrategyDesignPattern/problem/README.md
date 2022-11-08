@@ -12,6 +12,8 @@ Here we have one Duck class having 3 methods as quack(), swim() and display()
 
 # Solution
 ### Approach 1: Using Inheritance
+![img.png](img.png)
+
     - So here we added a new sub-class as PlasticDuck which isn't supposed to fly
     - so we need to override fly() method in sub-class, so that it should meet the requirements
     - But wait, for every new sub-class to be added, let's say WoodenDuck, we again need to override
@@ -19,6 +21,8 @@ Here we have one Duck class having 3 methods as quack(), swim() and display()
     - and if requirements keep on changing it requires every sub-class to be updated for just simple feature addition
     - Thus it makes hard for code to be reused any more...
 ### Approach 2: Using Interfaces
+![img_2.png](img_2.png)
+
     - In this approach we have taken out fly() method out of Duck class
     - Added Flyable Interface having method as void fly();
     - With this approach one can argue that, only subclasses requiring fly functionality needs to implement
